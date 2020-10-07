@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <meta name = "viewport" content="width = device-width, initial-scale = 1.0" />
+  </head>
+
+  <style>
+      body {
+        margin: 0;
+      }
+      .app {
+        position = relative;
+        height: 100%;
+        background-color: #C0C0C0;
+      }
+      .appbar {
+        background-color: #265365;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 2px rgba(0,0,0,0.6);
+      }
+      .memo-list-item {
+        background-color: #fff;
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+      }
+      .memo-list-item h3 {
+         font-size: 18px;
+         margin: 0;
+      }
+      .memo-list-item p {
+        font-size: 12px;
+        color: #DDD;
+        margin: 0;
+      }
+      .memo-add-button{
+        width: 50;
+        height: 50;
+        background-color: #fba7b5;
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+        line-height: 2em;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+      }
+  </style>
+  <body>
+    <div class="app">
+      <div class="appbar">
+        MEMOT
+      </div>
+      <div>
+        <div class="memo-list-item">
+          <h3>
+            メモ１
+          </h3>
+          <p>
+            2020/10/6
+          </p>
+        </div>
+        <div class="memo-list-item">
+          <h3>
+            メモ２
+          </h3>
+          <p>
+            2020/10/7
+          </p>
+        </div>
+        <div class="memo-list-item">
+          <h3>
+            メモ３　　
+          </h3>
+          <p>
+            2020/10/8
+          </p>
+        </div>
+      </div>
+      <div class="memo-add-button">
+        +
+      </div>
+    </div>
+  </body>
+</html>
